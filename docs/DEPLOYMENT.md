@@ -1,6 +1,14 @@
+# GitHub Pages public preview
+
+The user authorized a public website hosted from `5hoai8/UChenab-Website`. The source repository remains private. Target URL: https://5hoai8.github.io/UChenab-Website/
+
+The Pages workflow builds with `NEXT_PUBLIC_BASE_PATH=/UChenab-Website`, verifies the export and deploys it through GitHub Actions. Next.js links and public image paths use this prefix. Regular local/Vercel builds omit the variable and serve at the domain root.
+
+Enable **Settings → Pages → Source → GitHub Actions**. A private repository requires a qualifying GitHub plan; do not change repository visibility without explicit approval. The connected integration cannot read Pages settings (HTTP 403), so an account with repository administration permission may need to enable them.
+
 # Deployment plan
 
-The user selected the existing private GitHub repository https://github.com/5hoai8/UChenab-Website. It was verified empty before the source push. No hosted deployment was authorized or attempted. Public publishing remains unauthorized.
+The user selected the existing private GitHub repository https://github.com/5hoai8/UChenab-Website. It was verified empty before the source push. Public GitHub Pages deployment was subsequently authorized by the user.
 
 ## Vercel (preferred)
 

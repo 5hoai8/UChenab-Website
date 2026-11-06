@@ -18,3 +18,7 @@ The default Turbopack build failed under sandbox process restrictions. The proje
 Not performed: browser-based visual/responsive/interaction testing, screenshots, automated axe/Lighthouse analysis, a screen-reader audit or live deployment checks. The supported CUA browser tool was unavailable. The responsive layouts and accessible controls are implemented but no WCAG certification is claimed. Review the homepage, program finder and admissions page at desktop and mobile widths before public release.
 
 Git is available and GitHub authentication succeeds for `5hoai8`. Repository creation through the integration was blocked, after which the user supplied `5hoai8/UChenab-Website`. The repository was verified private and empty before the initial source push. No public deployment was authorized or attempted. The GitHub Actions workflow will perform the full verification sequence on pushes and pull requests.
+
+## GitHub Pages preparation
+
+The user subsequently requested a public GitHub Pages preview from the same repository. The project-path build (`NEXT_PUBLIC_BASE_PATH=/UChenab-Website`) passed production compilation, TypeScript, lint and export/content tests. Export tests verify prefixed routes, fragments and public images. `.github/workflows/pages.yml` builds and deploys through GitHub Actions. Enabling Pages through the connected integration was rejected with HTTP 403 `Resource not accessible by integration`; an account with repository administration permission must enable GitHub Actions as the Pages source. The public URL is not yet verified live.

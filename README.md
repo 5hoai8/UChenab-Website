@@ -2,6 +2,12 @@
 
 A complete responsive university website concept built from official University of Chenab information. This is an independent design implementation, with no claim of university endorsement. It does not replace the official website or accept applications.
 
+## Live preview
+
+GitHub Pages destination: https://5hoai8.github.io/UChenab-Website/
+
+The `Deploy GitHub Pages` workflow builds and publishes the public website from this repository after Pages is enabled with **GitHub Actions** as its source. A private source repository requires a GitHub plan that supports Pages for private repositories.
+
 ## Stack and requirements
 
 Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4, Lucide React and shared CSS design tokens. Node.js 20.9 or newer. The lockfile records exact dependencies. No database, CMS, API credentials or environment variables are required.
@@ -58,7 +64,7 @@ Vercel is suitable for this standard Next.js static export. Netlify and Cloudfla
 
 ## Known limitations
 
-- No hosted deployment has been created; public publishing remains unauthorized.
+- GitHub Pages publishing is authorized. Repository Pages settings must be enabled before the deployment workflow can publish.
 - Browser infrastructure was unavailable, so no browser screenshots, interactive browser tests or audited WCAG conformance are claimed.
 - The official degree page contains both an updated finder and a legacy table with differences. Only the updated finder is indexed. Intake availability, accreditation, fees, durations and eligibility are not inferred.
 - No current admissions deadline or open-intake claim is made.
