@@ -1,6 +1,6 @@
 # Deployment plan
 
-No publishing or source push has been performed. The user confirmed the private GitHub destination `5hoai8/university-of-chenab-website`. Repository creation was blocked by GitHub integration permissions (`Resource not accessible by integration`). Public deployment remains unauthorized.
+The user selected the existing private GitHub repository https://github.com/5hoai8/UChenab-Website. It was verified empty before the source push. No hosted deployment was authorized or attempted. Public publishing remains unauthorized.
 
 ## Vercel (preferred)
 

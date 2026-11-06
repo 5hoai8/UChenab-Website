@@ -42,24 +42,15 @@ The main source is https://uchenab.edu.pk/. `src/data/sources.json` records URLs
 
 ## GitHub workflow
 
-This project is isolated in its own local Git repository. The user confirmed `5hoai8/university-of-chenab-website` with private visibility. GitHub authentication was verified successfully with network access. The repository did not exist, and creation was attempted, but GitHub rejected it with `Resource not accessible by integration (createRepository)`. No repository was created and no source was pushed. Create the private repository through an account with repository-creation permission, then push the existing local project to it. No public deployment is authorized.
-
-After confirming `OWNER` and private visibility, run:
+This project has its own private GitHub repository: https://github.com/5hoai8/UChenab-Website. The user selected this destination after repository creation through the integration was blocked. The supplied repository was verified private and empty before the initial push.
 
 ```sh
-gh auth login
-gh auth status
-gh api user --jq .login
-gh repo view OWNER/university-of-chenab-website
+git clone https://github.com/5hoai8/UChenab-Website.git
+cd UChenab-Website
+npm ci
 ```
 
-If the repository exists, inspect it and choose a new name or explicitly approve its use; do not overwrite it. If it does not exist and the account is correct:
-
-```sh
-gh repo create OWNER/university-of-chenab-website --private --source=. --remote=origin --push
-```
-
-Use branches, review source changes and run the checks before each deployment. Never commit secrets, `.env`, caches or `node_modules`.
+Use branches, review source changes and run the checks before each deployment. Never commit secrets, `.env`, caches or `node_modules`. Keep the repository private unless the owner explicitly authorizes a visibility change.
 
 ## Deployment
 
@@ -67,7 +58,7 @@ Vercel is suitable for this standard Next.js static export. Netlify and Cloudfla
 
 ## Known limitations
 
-- No remote repository or deployment was created; destination confirmation remains pending.
+- No hosted deployment has been created; public publishing remains unauthorized.
 - Browser infrastructure was unavailable, so no browser screenshots, interactive browser tests or audited WCAG conformance are claimed.
 - The official degree page contains both an updated finder and a legacy table with differences. Only the updated finder is indexed. Intake availability, accreditation, fees, durations and eligibility are not inferred.
 - No current admissions deadline or open-intake claim is made.
