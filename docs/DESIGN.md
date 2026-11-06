@@ -2,7 +2,7 @@
 
 The implemented browser pages are the high-fidelity responsive mockups: `/` for desktop/mobile homepage, `/programs/` for program discovery and `/admissions/` for the application journey. Figma was not used. Browser screenshots were not generated because the supported browser QA tool was unavailable.
 
-Direction: an editorial academic design, using burgundy (#741c35), dark wine (#441626), warm ivory (#f7f5ef), muted gold and dark charcoal. Georgia serif headings provide an academic character without external font requests. Arial supports compact, readable interface text. Shared CSS variables centralize colors and typography.
+Direction: an editorial academic design using the user-specified institutional blue (#222362), yellow (#f0b23a), and light gray accents (#f3f4f6 and #eef0f4). Deep blue (#171843) anchors the footer, utility bar and photographic overlays. Yellow highlights primary entry points, hero text and dark-surface focus indicators; body links use blue for readable contrast on light surfaces. Georgia serif headings provide an academic character without external font requests. Arial supports readable interface text. Shared CSS variables centralize colors and typography.
 
 The homepage progresses from campus-led introduction to quick actions, university purpose, study pathways, campus life, research, news and the next step. Internal pages share breadcrumbs, an introductory panel, content cards, evidence links and a next-step call to action. The finder adds level and department selectors, live results and an explicit empty state.
 
