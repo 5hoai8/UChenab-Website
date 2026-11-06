@@ -47,3 +47,7 @@ h1,h2,h3,.hero h1 i,.life-copy h2 i,.hero-pathways h2,.study-card h3,.news-featu
 
 :root{--header-content-width:1160px;--header-side-gap:32px}
 @media(max-width:760px){:root{--header-side-gap:6vw}}
+
+/* Larger filled feature icons, matching the shared 25% size increase. */
+.quick-links>a>svg:first-child{width:28px;height:28px}.quick-links>a>svg:last-child{width:20px;height:20px}
+@media(max-width:760px){.quick-links>a>svg:first-child{width:26px;height:26px}}

@@ -35,3 +35,5 @@ The original bar sizing and full support wording are restored. A full-width grad
 
 
 All interface icons now use a shared Phosphor icon layer with fill weight enforced, covering navigation, controls, cards and degree discovery in both designs. Gradients use a single branding hue family at a time: blue shades with white/gray, or yellow shades with white. Blue and yellow are never blended together within a gradient.
+
+Icon sizes are increased by 25% through the shared filled-icon component. Feature/card icons with CSS size constraints have matching larger dimensions; icon containers and mobile overrides are adjusted to keep the existing layouts balanced.
