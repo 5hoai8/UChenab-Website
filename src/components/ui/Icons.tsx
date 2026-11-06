@@ -7,7 +7,7 @@ import {
  type Icon,type IconProps
 } from '@phosphor-icons/react';
 function filled(Component:Icon){
- return function FilledIcon(props:IconProps){return <Component aria-hidden={props['aria-label']?undefined:true} {...props} weight="fill"/>;};
+ return function FilledIcon(props:IconProps){const size=typeof props.size==='number'?Math.round(props.size*1.25):(props.size??30);return <Component aria-hidden={props['aria-label']?undefined:true} {...props} size={size} weight="fill" style={{flexShrink:0,...props.style}}/>;};
 }
 export const ArrowUpRight=filled(ArrowUpRightIcon);
 export const BookOpen=filled(BookOpenIcon);
