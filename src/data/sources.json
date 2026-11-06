@@ -106,5 +106,11 @@
     "retrieved": "2026-11-06",
     "status": "verified",
     "scope": "prorector-message"
+  },
+  {
+    "url": "https://admissions.uchenab.edu.pk/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "official admissions portal (apply and login)"
   }
 ]

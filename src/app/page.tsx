@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import {ArrowUpRight,BookOpen,GraduationCap,Building2,HeartHandshake,Code2,BriefcaseBusiness,FlaskConical,Languages,Stethoscope,CheckCircle2,MapPin,ArrowRight,ShieldCheck} from 'lucide-react';
+import {ArrowUpRight,BookOpen,GraduationCap,Building2,HeartHandshake,Code2,BriefcaseBusiness,FlaskConical,Languages,Stethoscope,CheckCircle2,MapPin,ArrowRight,ShieldCheck} from '@/components/ui/Icons';
 import {asset} from '@/lib/assets';
 import {Button} from '@/components/ui/Primitives';
 import {studyAreas,studentResources,campusResources} from '@/data/academy';

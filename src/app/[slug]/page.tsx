@@ -2,7 +2,7 @@ import {asset} from '@/lib/assets';
 import Link from 'next/link';
 import Image from 'next/image';
 import {notFound} from 'next/navigation';
-import {ArrowUpRight,ChevronRight} from 'lucide-react';
+import {ArrowUpRight,ChevronRight} from '@/components/ui/Icons';
 import {pages,titles,official,destination} from '@/data/content';
 import sources from '@/data/sources.json';
 import ProgramFinder from '@/components/ProgramFinder';
