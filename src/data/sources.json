@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://uchenab.edu.pk/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "homepage, offices and news navigation"
+  },
+  {
+    "url": "https://uchenab.edu.pk/about-us/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "about-us"
+  },
+  {
+    "url": "https://uchenab.edu.pk/degree-finder/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "degree-finder"
+  },
+  {
+    "url": "https://uchenab.edu.pk/our-faculty/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "our-faculty"
+  },
+  {
+    "url": "https://uchenab.edu.pk/undergraduate/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "undergraduate"
+  },
+  {
+    "url": "https://uchenab.edu.pk/postgraduate-students/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "postgraduate-students"
+  },
+  {
+    "url": "https://uchenab.edu.pk/apply/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "apply"
+  },
+  {
+    "url": "https://uchenab.edu.pk/how-to-apply/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "how-to-apply"
+  },
+  {
+    "url": "https://uchenab.edu.pk/merit-based-scholarship/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "merit-based-scholarship"
+  },
+  {
+    "url": "https://uchenab.edu.pk/need-based-financial-assistance/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "need-based-financial-assistance"
+  },
+  {
+    "url": "https://uchenab.edu.pk/academic-calendar/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "academic-calendar"
+  },
+  {
+    "url": "https://uchenab.edu.pk/life-at-uchenab/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "life-at-uchenab"
+  },
+  {
+    "url": "https://uchenab.edu.pk/research/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "research"
+  },
+  {
+    "url": "https://uchenab.edu.pk/oric/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "oric"
+  },
+  {
+    "url": "https://uchenab.edu.pk/contacts/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "contacts"
+  },
+  {
+    "url": "https://uchenab.edu.pk/rector-message/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "rector-message"
+  },
+  {
+    "url": "https://uchenab.edu.pk/chairman-message/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "chairman-message"
+  },
+  {
+    "url": "https://uchenab.edu.pk/prorector-message/",
+    "retrieved": "2026-11-06",
+    "status": "verified",
+    "scope": "prorector-message"
+  }
+]

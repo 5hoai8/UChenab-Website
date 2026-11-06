@@ -1,0 +1,248 @@
+[
+  {
+    "name": "ADP Accounting & Finance",
+    "level": "ADP",
+    "department": "Business Education",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "ADP Business Studies",
+    "level": "ADP",
+    "department": "Business Education",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "ADP Computing",
+    "level": "ADP",
+    "department": "Computer Science",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "ADP English",
+    "level": "ADP",
+    "department": "Languages",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "ADP Hospitality Management",
+    "level": "ADP",
+    "department": "Business Education",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BBA - Business Administration",
+    "level": "Bachelor",
+    "department": "Business Education",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS Accounting and Finance",
+    "level": "Bachelor",
+    "department": "Business Education",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS Computer Science",
+    "level": "Bachelor",
+    "department": "Computer Science",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS Data Science",
+    "level": "Bachelor",
+    "department": "Computer Science",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS English",
+    "level": "Bachelor",
+    "department": "Languages",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS Mathematics",
+    "level": "Bachelor",
+    "department": "Physical Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS Medical Laboratory Technology",
+    "level": "Bachelor",
+    "department": "Allied Health Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS Nursing",
+    "level": "Bachelor",
+    "department": "Allied Health Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BSN - Post RN (2 Years)",
+    "level": "Bachelor",
+    "department": "Allied Health Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS Physics",
+    "level": "Bachelor",
+    "department": "Physical Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS Radiography & Imaging Technology",
+    "level": "Bachelor",
+    "department": "Allied Health Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BS Software Engineering",
+    "level": "Bachelor",
+    "department": "Computer Science",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BSc Civil Engineering & Technology",
+    "level": "Bachelor",
+    "department": "Civil Technology",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "BSc Human Nutrition & Dietetics",
+    "level": "Bachelor",
+    "department": "Allied Health Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "DPT - Doctor of Physical Therapy",
+    "level": "Bachelor",
+    "department": "Allied Health Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "LLB - Bachelor of Law",
+    "level": "Bachelor",
+    "department": "Law",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "Pharm-D - Doctor of Pharmacy",
+    "level": "Bachelor",
+    "department": "Pharmacy",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MPhil Accounting and Finance",
+    "level": "Master",
+    "department": "Business Education",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MPhil English Applied Linguistics",
+    "level": "Master",
+    "department": "Languages",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MPhil Food Science & Technology",
+    "level": "Master",
+    "department": "Allied Health Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MPhil Management Sciences",
+    "level": "Master",
+    "department": "Business Education",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MPhil Mathematics",
+    "level": "Master",
+    "department": "Physical Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MPhil Pharmaceutics",
+    "level": "Master",
+    "department": "Pharmacy",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MPhil Physics",
+    "level": "Master",
+    "department": "Physical Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MS Computer Science",
+    "level": "Master",
+    "department": "Computer Science",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MS Physical Therapy",
+    "level": "Master",
+    "department": "Allied Health Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "MS Software Engineering",
+    "level": "Master",
+    "department": "Computer Science",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "PhD Business Administration",
+    "level": "PhD",
+    "department": "Business Education",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "PhD Mathematics",
+    "level": "PhD",
+    "department": "Physical Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "HND - Art & Design",
+    "level": "4 & 5",
+    "department": "International Qualifications",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "HND - Business",
+    "level": "4 & 5",
+    "department": "International Qualifications",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "HND - Computing",
+    "level": "4 & 5",
+    "department": "International Qualifications",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "HND - Health & Social Care",
+    "level": "4 & 5",
+    "department": "International Qualifications",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "HND - Hospitality Management",
+    "level": "4 & 5",
+    "department": "International Qualifications",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "HND - Social & Community Work",
+    "level": "4 & 5",
+    "department": "International Qualifications",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  },
+  {
+    "name": "CNA - Certified Nursing Assistant (2 Years)",
+    "level": "Diploma",
+    "department": "Allied Health Sciences",
+    "source": "https://uchenab.edu.pk/degree-finder/"
+  }
+]

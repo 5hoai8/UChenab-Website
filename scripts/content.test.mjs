@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import ts from 'typescript';
+const data=JSON.parse(fs.readFileSync('src/data/programs.json','utf8'));
+const code=fs.readFileSync('src/lib/programs.ts','utf8').replace("import data from '@/data/programs.json';",'const data = '+JSON.stringify(data)+';');
+const js=ts.transpileModule(code,{compilerOptions:{module:ts.ModuleKind.ESNext}}).outputText;
+const {filterPrograms}=await import('data:text/javascript;base64,'+Buffer.from(js).toString('base64'));
+test('search is case insensitive and tolerates whitespace',()=>assert.deepEqual(filterPrograms('  COMPUTER SCIENCE  ','','').map(p=>p.name),data.filter(p=>p.department==='Computer Science').map(p=>p.name)));
+test('level and department filters combine with text search',()=>assert.deepEqual(filterPrograms('software','Master','Computer Science').map(p=>p.name),['MS Software Engineering']));
+test('incompatible filter combination returns empty state',()=>assert.equal(filterPrograms('pharmacy','PhD','Languages').length,0));
+test('reset exposes all unique programs with official evidence',()=>{const result=filterPrograms('','','');assert.equal(result.length,data.length);assert.equal(new Set(result.map(p=>p.name)).size,data.length);for(const p of result){assert.equal(new URL(p.source).hostname,'uchenab.edu.pk');assert.ok(p.department&&p.level&&p.name)}});
+test('all content sources record retrieval and verification',()=>{const sources=JSON.parse(fs.readFileSync('src/data/sources.json'));assert.ok(sources.length>=17);for(const s of sources){assert.equal(s.status,'verified');assert.equal(s.retrieved,'2026-11-06');assert.equal(new URL(s.url).hostname,'uchenab.edu.pk')}});
