@@ -7,3 +7,8 @@ Direction: an editorial academic design using the user-specified institutional b
 The homepage progresses from campus-led introduction to quick actions, university purpose, study pathways, campus life, research, news and the next step. Internal pages share breadcrumbs, an introductory panel, content cards, evidence links and a next-step call to action. The finder adds level and department selectors, live results and an explicit empty state.
 
 Breakpoints at 760px and 1100px adapt navigation, grids and forms. Images reserve space and use optimized WebP assets. UI components include Button, SectionTitle, Header, Footer and ProgramFinder. Keyboard focus, skip navigation, semantic landmarks, labeled controls, native details/summary accordions, reduced-motion handling and a mobile menu with expanded state are implemented. Browser review is still required to assess the final rendered visual and interaction quality.
+
+
+## Logo and visual refinement
+
+The matching official university logo now replaces the generic text/icon identity in the header and footer. The header renders the original logo silhouette in #222362 using a CSS mask; the footer preserves the white asset. Intrinsic aspect ratio and responsive sizing prevent stretching. The visual refresh adds a sticky navigation bar, a study-pathway hero panel, overlapping quick links, more spacious rounded study cards, a contrasting research card, framed campus photography, refined internal content cards, and stronger yellow accents. Mobile layouts hide the auxiliary hero panel and retain full-width navigation and controls. No new institutional claims were added. Browser visual QA remains unavailable in this environment.

@@ -69,5 +69,5 @@ Vercel is suitable for this standard Next.js static export. Netlify and Cloudfla
 - The official degree page contains both an updated finder and a legacy table with differences. Only the updated finder is indexed. Intake availability, accreditation, fees, durations and eligibility are not inferred.
 - No current admissions deadline or open-intake claim is made.
 - News contains one verified homepage-linked story; campus images are contextual, not asserted to depict that event.
-- University images remain university-owned. Obtain permission before public reuse. No official logo was reused; the design uses a text identity and generic architectural icon.
+- University images remain university-owned. Obtain permission before public reuse. The university logo was added at the user’s request using the matching official-site asset; its source is recorded in docs/assets.json.
 - Source access does not establish university endorsement. Human content and accessibility review remain necessary before a public release.
