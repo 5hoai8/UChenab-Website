@@ -1,6 +1,6 @@
 # Developer profile overlay
 
-The same reusable `DeveloperProfileBadge` is mounted once in each branch's root layout, after the footer. Its fixed-position clipping wrapper sits outside normal page flow; it is neither a page section nor a header redesign. The badge is positioned below the current header and adapts to scrolling, header resizing and mobile safe areas. It hides while the mobile menu or an accessible/native modal is open, or when the viewport has insufficient space below navigation.
+The same reusable `DeveloperProfileBadge` is mounted once in each branch's root layout, after the footer. Its fixed-position clipping wrapper sits outside normal page flow; it is neither a page section nor a header redesign. The badge is positioned below the current header and keeps the same viewport position while scrolling, with responsive adjustments for header resizing and mobile safe areas. It hides while the mobile menu or an accessible/native modal is open, or when the viewport has insufficient space below navigation.
 
 ## Configuration and provenance
 
@@ -15,8 +15,8 @@ The four small authentic Simple Icons assets identify the **Website stack** (Typ
 - Clicking/tapping the tab pins the card. The close button, Escape or an outside pointer closes it. Closing suppresses hover reopening until a pointer leave, preventing jitter.
 - Keyboard access uses a real button, expanded-state semantics, a named non-modal region, visible focus and secure GitHub link. Closed content is inert and hidden from assistive technology. No focus trap is introduced; closing explicitly returns focus when appropriate.
 - CSS transitions handle the slide; reduced-motion preferences disable transitions and skip the automatic introduction. No continuous animation or repeated profile requests occurs.
-- A ResizeObserver, a bounded mutation observer, passive scrolling and requestAnimationFrame keep positioning synchronized. All listeners, observers, animation frames and timers are cleaned up.
-- The overlay clips its translated card to prevent horizontal overflow. Light surfaces and an optional dark preference use separate blue-family backgrounds with a yellow border accent, never a blue-to-yellow gradient.
+- A ResizeObserver, a bounded mutation observer, requestAnimationFrame keep positioning synchronized. All listeners, observers, animation frames and timers are cleaned up.
+- The overlay clips its translated card to prevent horizontal overflow. The card and collapsed tab always use opaque white backgrounds, including when the browser prefers dark mode. The viewport position does not follow scroll events.
 
 ## Verification
 
