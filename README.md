@@ -42,7 +42,7 @@ The main source is https://uchenab.edu.pk/. `src/data/sources.json` records URLs
 
 ## GitHub workflow
 
-This project is isolated in its own local Git repository. No remote repository has been created or pushed. GitHub CLI was installed, but its supplied authentication was invalid. The connected GitHub integration identifies account `5hoai8`; a repository-name search returned no matches. This is a proposed destination only, pending user confirmation. The user must confirm the account and destination before remote creation or pushing, as required by the brief.
+This project is isolated in its own local Git repository. The user confirmed `5hoai8/university-of-chenab-website` with private visibility. GitHub authentication was verified successfully with network access. The repository did not exist, and creation was attempted, but GitHub rejected it with `Resource not accessible by integration (createRepository)`. No repository was created and no source was pushed. Create the private repository through an account with repository-creation permission, then push the existing local project to it. No public deployment is authorized.
 
 After confirming `OWNER` and private visibility, run:
 

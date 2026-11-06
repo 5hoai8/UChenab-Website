@@ -1,6 +1,6 @@
 # Deployment plan
 
-No publishing or source push has been performed. The brief requires confirmation of the remote destination and visibility before those actions.
+No publishing or source push has been performed. The user confirmed the private GitHub destination `5hoai8/university-of-chenab-website`. Repository creation was blocked by GitHub integration permissions (`Resource not accessible by integration`). Public deployment remains unauthorized.
 
 ## Vercel (preferred)
 
