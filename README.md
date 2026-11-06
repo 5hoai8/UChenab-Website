@@ -42,7 +42,7 @@ The main source is https://uchenab.edu.pk/. `src/data/sources.json` records URLs
 
 ## GitHub workflow
 
-This project is isolated in its own local Git repository. No remote repository has been created or pushed. GitHub CLI was installed, but its supplied authentication was invalid. The user must confirm the account and destination before remote creation or pushing, as required by the brief.
+This project is isolated in its own local Git repository. No remote repository has been created or pushed. GitHub CLI was installed, but its supplied authentication was invalid. The connected GitHub integration identifies account `5hoai8`; a repository-name search returned no matches. This is a proposed destination only, pending user confirmation. The user must confirm the account and destination before remote creation or pushing, as required by the brief.
 
 After confirming `OWNER` and private visibility, run:
 
