@@ -1,14 +1,11 @@
-# Visual system and representative mockups
+# Academy-inspired design alternative
 
-The implemented browser pages are the high-fidelity responsive mockups: `/` for desktop/mobile homepage, `/programs/` for program discovery and `/admissions/` for the application journey. Figma was not used. Browser screenshots were not generated because the supported browser QA tool was unavailable.
+Branch: `design/academy-style`. The original design remains on `main`.
 
-Direction: an editorial academic design using the user-specified institutional blue (#222362), yellow (#f0b23a), and light gray accents (#f3f4f6 and #eef0f4). Deep blue (#171843) anchors the footer, utility bar and photographic overlays. Yellow highlights primary entry points, hero text and dark-surface focus indicators; body links use blue for readable contrast on light surfaces. Georgia serif headings provide an academic character without external font requests. Arial supports readable interface text. Shared CSS variables centralize colors and typography.
+The supplied reference guides the visual structure: a pale split hero with university photography, organic image framing and floating campus-life card; a white four-item benefit strip; five photo cards for verified study areas; a navy pathway strip; an overlapping photo collage and about section; a pale blue support section; four campus story/resource cards; and a compact navy footer.
 
-The homepage progresses from campus-led introduction to quick actions, university purpose, study pathways, campus life, research, news and the next step. Internal pages share breadcrumbs, an introductory panel, content cards, evidence links and a next-step call to action. The finder adds level and department selectors, live results and an explicit empty state.
+Official blue #222362, yellow #f0b23a and light gray backgrounds remain the institutional palette. The original university logo is reused. Real photographs are from the official university website and are recorded in assets.json. Program artwork is credited as artwork rather than passed off as event photography.
 
-Breakpoints at 760px and 1100px adapt navigation, grids and forms. Images reserve space and use optimized WebP assets. UI components include Button, SectionTitle, Header, Footer and ProgramFinder. Keyboard focus, skip navigation, semantic landmarks, labeled controls, native details/summary accordions, reduced-motion handling and a mobile menu with expanded state are implemented. Browser review is still required to assess the final rendered visual and interaction quality.
+The reference's invented academy testimonials, enrolment totals, success rates and faculty statistics are not reproduced. In their place, verified study pathways and official student-support resources serve the same visual composition. Program category cards pass department selections into the existing functional degree finder. All original internal pages are retained with the lighter shared styling.
 
-
-## Logo and visual refinement
-
-The matching official university logo now replaces the generic text/icon identity in the header and footer. The header renders the original logo silhouette in #222362 using a CSS mask; the footer preserves the white asset. Intrinsic aspect ratio and responsive sizing prevent stretching. The visual refresh adds a sticky navigation bar, a study-pathway hero panel, overlapping quick links, more spacious rounded study cards, a contrasting research card, framed campus photography, refined internal content cards, and stronger yellow accents. Mobile layouts hide the auxiliary hero panel and retain full-width navigation and controls. No new institutional claims were added. Browser visual QA remains unavailable in this environment.
+Responsive rules adapt the hero, cards, pathway strip and navigation for mobile. Browser visual QA remains unavailable; production build, TypeScript, lint and static navigation/asset checks are used for verification.

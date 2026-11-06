@@ -1,10 +1,14 @@
-# University of Chenab — independent website concept
+# University of Chenab — academy-style design alternative
 
 A complete responsive university website concept built from official University of Chenab information. This is an independent design implementation, with no claim of university endorsement. It does not replace the official website or accept applications.
 
+## Separate design version
+
+This branch (`design/academy-style`) is the academy-inspired design requested by the user. The original design remains on `main`, at https://5hoai8.github.io/UChenab-Website/. This copy is published at https://5hoai8.github.io/UChenab-Website/academy-style/. Both exports are assembled by the Pages workflow on `main`; the original homepage source is retained unchanged.
+
 ## Live preview
 
-GitHub Pages destination: https://5hoai8.github.io/UChenab-Website/
+This version: https://5hoai8.github.io/UChenab-Website/academy-style/
 
 The `Deploy GitHub Pages` workflow builds and publishes the public website from this repository after Pages is enabled with **GitHub Actions** as its source. A private source repository requires a GitHub plan that supports Pages for private repositories.
 

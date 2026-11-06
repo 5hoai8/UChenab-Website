@@ -22,3 +22,7 @@ Git is available and GitHub authentication succeeds for `5hoai8`. Repository cre
 ## GitHub Pages preparation
 
 The user subsequently requested a public GitHub Pages preview from the same repository. The project-path build (`NEXT_PUBLIC_BASE_PATH=/UChenab-Website`) passed production compilation, TypeScript, lint and export/content tests. Export tests verify prefixed routes, fragments and public images. `.github/workflows/pages.yml` builds and deploys through GitHub Actions. Enabling Pages through the connected integration was rejected with HTTP 403 `Resource not accessible by integration`; an account with repository administration permission must enable GitHub Actions as the Pages source. The public URL is not yet verified live.
+
+## Preserved academy-style alternative
+
+The alternative lives on `design/academy-style` and uses a separate `/academy-style/` export path. Production compilation, lint, TypeScript and exported route/asset checks passed during implementation. The official homepage and degree finder were rechecked, and all 41 indexed program names were found. Program category links initialize the degree finder department/level selection; reset controls clear them. Browser visual and interaction testing remains unavailable. The combined Pages workflow builds both versions before publishing either, and preserves the original root design.

@@ -13,3 +13,7 @@ The how-to-apply FAQ has contradictory wording about simultaneous course applica
 The official application page links to an HTTP admissions subdomain. This concept links to the verified HTTPS university application page so visitors can follow the university’s current route. No applicant information is collected here.
 
 The initial sandbox could not access the network; permitted research access subsequently succeeded. No content was obtained by bypassing access restrictions. Retrieval status is not an institutional certification. Image URLs and copyright limitations are recorded in `assets.json`.
+
+
+## Academy-style branch refresh
+The official homepage and degree finder were retrieved again on 6 November 2026. 41 of 41 indexed program names were present verbatim in the refreshed official HTML. Existing university overview and support summaries remain grounded in the recorded sources. New university images are registered in assets.json. The source image reference supplies visual structure only, not institutional facts.
