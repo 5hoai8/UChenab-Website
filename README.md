@@ -78,3 +78,8 @@ Vercel is suitable for this standard Next.js static export. Netlify and Cloudfla
 - News contains one verified homepage-linked story; campus images are contextual, not asserted to depict that event.
 - University images remain university-owned. Obtain permission before public reuse. The university logo was added at the user’s request using the matching official-site asset; its source is recorded in docs/assets.json.
 - Source access does not establish university endorsement. Human content and accessibility review remain necessary before a public release.
+
+
+## Preview updates
+
+The build generates a release marker for the invisible preview-refresh client. Visible tabs check for new deployments and reload once per newer version, with loop protection. Existing tabs need one manual refresh to install the feature. See docs/PREVIEW-REFRESH.md.

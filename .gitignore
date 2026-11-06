@@ -6,3 +6,6 @@ out/
 *.tsbuildinfo
 .DS_Store
 work/
+
+# Generated per-build deployment metadata
+/public/version.json
