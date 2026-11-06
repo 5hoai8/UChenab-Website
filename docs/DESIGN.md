@@ -24,3 +24,6 @@ The updates strip and former utility row are now merged into one gradient top ba
 ## Compact branded typography and surfaces
 
 The main layout now uses a centered 1160px content measure, tighter section spacing, a smaller header and hero, more compact cards, and reduced image heights. Section surfaces use subtle blue-tinted and yellow-tinted gradients derived from #222362 and #f0b23a, with white/light-gray reading areas. Dark gradients stay within the blue palette. Cinzel regular and bold are self-hosted with the SIL Open Font License, loaded through next/font/local. Helvetica is first in the body/UI font stack, with Helvetica Neue and Arial fallbacks when Helvetica is unavailable on the visitor’s device. No proprietary Helvetica font file is redistributed. The alternate design branch is preserved separately.
+
+
+Cinzel headings now use the bundled bold (700) font. The updates bar alone is further compressed through smaller padding, tighter gaps and shorter support copy; header height and page layout spacing remain unchanged. All update selectors, quick links and Login are retained.
