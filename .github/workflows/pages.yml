@@ -16,7 +16,10 @@ jobs:
     env:
       NEXT_PUBLIC_BASE_PATH: /UChenab-Website
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out original design
+        uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 24
@@ -26,10 +29,34 @@ jobs:
       - run: npm run lint
       - run: npm run build
       - run: npm test
-      - run: touch out/.nojekyll
+      - name: Preserve original export
+        run: mv out site-export
+      - name: Check out academy-style alternative
+        uses: actions/checkout@v4
+        with:
+          ref: design/academy-style
+          path: academy-source
+      - name: Install alternative dependencies
+        working-directory: academy-source
+        run: npm ci
+      - name: Verify and build alternative
+        working-directory: academy-source
+        env:
+          NEXT_PUBLIC_BASE_PATH: /UChenab-Website/academy-style
+        run: |
+          npm run typecheck
+          npm run lint
+          npm run build
+          npm test
+      - name: Combine both websites
+        run: |
+          mv academy-source/out site-export/academy-style
+          touch site-export/.nojekyll
+          test -f site-export/index.html
+          test -f site-export/academy-style/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: site-export
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -37,6 +64,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy public website
+      - name: Deploy both designs
         id: deployment
         uses: actions/deploy-pages@v4

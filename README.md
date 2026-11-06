@@ -2,6 +2,13 @@
 
 A complete responsive university website concept built from official University of Chenab information. This is an independent design implementation, with no claim of university endorsement. It does not replace the official website or accept applications.
 
+## Both design versions
+
+- Original design (`main`): https://5hoai8.github.io/UChenab-Website/
+- Academy-inspired alternative (`design/academy-style`): https://5hoai8.github.io/UChenab-Website/academy-style/
+
+The original design source remains on main. The Pages workflow builds and publishes both versions together. See `docs/DESIGN-VERSIONS.md` for editing and deployment instructions.
+
 ## Live preview
 
 GitHub Pages destination: https://5hoai8.github.io/UChenab-Website/
@@ -48,7 +55,7 @@ The main source is https://uchenab.edu.pk/. `src/data/sources.json` records URLs
 
 ## GitHub workflow
 
-This project has its own private GitHub repository: https://github.com/5hoai8/UChenab-Website. The user selected this destination after repository creation through the integration was blocked. The supplied repository was verified private and empty before the initial push.
+This project has its own GitHub repository: https://github.com/5hoai8/UChenab-Website. The user selected this destination after repository creation through the integration was blocked. The supplied repository was verified private and empty before the initial push.
 
 ```sh
 git clone https://github.com/5hoai8/UChenab-Website.git
