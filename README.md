@@ -17,7 +17,7 @@ The `Deploy GitHub Pages` workflow builds and publishes the public website from 
 
 ## Stack and requirements
 
-Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4, Lucide React and shared CSS design tokens. Node.js 20.9 or newer. The lockfile records exact dependencies. No database, CMS, API credentials or environment variables are required.
+Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4, Phosphor React filled icons and shared CSS design tokens. Node.js 20.9 or newer. The lockfile records exact dependencies. No database, CMS, API credentials or environment variables are required.
 
 ## Run and verify
 

@@ -27,3 +27,11 @@ The main layout now uses a centered 1160px content measure, tighter section spac
 
 
 Cinzel headings now use the bundled bold (700) font. The updates bar alone is further compressed through smaller padding, tighter gaps and shorter support copy; header height and page layout spacing remain unchanged. All update selectors, quick links and Login are retained.
+
+
+## Aligned shared updates bar
+
+The original bar sizing and full support wording are restored. A full-width gradient surrounds a centered inner wrapper whose width and gutters exactly match the adjacent navigation header. Main uses the 1160px header content measure with 32px minimum gutters; the academy design uses its existing 1240px header measure with 5vw gutters. Both use 6vw mobile gutters. The same updates, selectors, support link, quick links and Login component now appear on both branches. Only the bar content alignment changes; header sizing and page content are preserved.
+
+
+All interface icons now use a shared Phosphor icon layer with fill weight enforced, covering navigation, controls, cards and degree discovery in both designs. Gradients use a single branding hue family at a time: blue shades with white/gray, or yellow shades with white. Blue and yellow are never blended together within a gradient.
