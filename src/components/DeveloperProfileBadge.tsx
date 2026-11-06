@@ -19,22 +19,23 @@ export default function DeveloperProfileBadge(){
  const close=(restoreFocus=false)=>{cancelLeave();dispatch('close');if(restoreFocus)trigger.current?.focus({preventScroll:true});};
 
  useEffect(()=>{
-  const header=document.querySelector('header');
+  const header=document.querySelector<HTMLElement>('header');
+  const updates=document.querySelector<HTMLElement>('.updates-bar');
   let frame=0;
   const measure=()=>{
    frame=0;
-   const top=Math.max(16,Math.ceil(header?.getBoundingClientRect().bottom??0)+12);
+   const top=Math.max(16,(header?.offsetHeight??0)+(updates?.offsetHeight??0)+12);
    const obscured=!!document.querySelector('#main-navigation.open,dialog[open],[aria-modal="true"]')||window.innerHeight-top<145;
    setPosition(current=>current.top===top&&current.obscured===obscured?current:{top,obscured});
   };
   const schedule=()=>{if(!frame)frame=requestAnimationFrame(measure);};
   const resize=new ResizeObserver(schedule);
   if(header)resize.observe(header);
-  const updates=document.querySelector('.updates-bar');if(updates)resize.observe(updates);
+  if(updates)resize.observe(updates);
   const mutations=new MutationObserver(schedule);
   mutations.observe(document.body,{subtree:true,childList:true,attributes:true,attributeFilter:['class','open','aria-modal']});
-  window.addEventListener('resize',schedule);window.addEventListener('scroll',schedule,{passive:true});schedule();
-  return ()=>{resize.disconnect();mutations.disconnect();window.removeEventListener('resize',schedule);window.removeEventListener('scroll',schedule);if(frame)cancelAnimationFrame(frame);};
+  window.addEventListener('resize',schedule);schedule();
+  return ()=>{resize.disconnect();mutations.disconnect();window.removeEventListener('resize',schedule);if(frame)cancelAnimationFrame(frame);};
  },[]);
 
  useEffect(()=>{
