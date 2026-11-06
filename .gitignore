@@ -8,3 +8,6 @@ out/
 work/
 
 node_modules
+
+# Generated per-build deployment metadata
+/public/version.json
