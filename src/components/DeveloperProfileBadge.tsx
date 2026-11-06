@@ -41,7 +41,7 @@ export default function DeveloperProfileBadge(){
   if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
   try{if(sessionStorage.getItem(SESSION_KEY))return;sessionStorage.setItem(SESSION_KEY,'1');}catch{/* Storage is optional; the root component still mounts only once per navigation session. */}
   const enter=setTimeout(()=>dispatch('intro'),250);
-  const settle=setTimeout(()=>dispatch('intro-end'),3250);
+  const settle=setTimeout(()=>{if(!root.current?.contains(document.activeElement))dispatch('intro-end');},3250);
   return ()=>{clearTimeout(enter);clearTimeout(settle);};
  },[]);
  useEffect(()=>()=>{if(leaveTimer.current)clearTimeout(leaveTimer.current);},[]);
