@@ -12,6 +12,7 @@ export default function UpdatesBar(){
       <p className="updates-message" aria-live="polite" aria-atomic="true"><span>{update.prefix}</span> <Link href={update.href}>{update.label}</Link></p>
     </div>
     <p className="updates-support">For academic queries and support, <Link href="/contact">contact the Admissions Office</Link>.</p>
+    <nav className="updates-links" aria-label="Quick links"><Link href="/academic-calendar">Academic calendar</Link><Link href="/news">News & events</Link><Link href="/contact">Contact us ↗</Link></nav>
     <a className="updates-login" href={admissionsPortal} aria-label="Login to the official admissions portal">Login</a>
   </section>;
 }

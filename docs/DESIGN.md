@@ -17,3 +17,5 @@ The matching official university logo now replaces the generic text/icon identit
 ## Integrated updates top bar
 
 The main design adds a blue-to-violet gradient updates strip above the retained utility navigation. The strip combines a pill-shaped Updates label, three manual selectors for verified application/scholarship/calendar resources, an Admissions Office contact link, and a Login link to the official admissions portal. The portal returned HTTP 200 when checked. Existing location, calendar, news and contact utility links and the full primary navigation remain available. The alternate design stays on its separate branch and preview path. There is no automatic scrolling or rotation, and updates are announced politely to assistive technology. Mobile layouts wrap rather than hide existing links.
+
+The updates strip and former utility row are now merged into one gradient top bar. Academic calendar, news and contact links remain alongside updates, admissions support and Login. The location text was removed from this bar at the user’s request. Narrow screens wrap within the single shared bar.
