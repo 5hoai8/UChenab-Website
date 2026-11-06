@@ -12,3 +12,8 @@ Breakpoints at 760px and 1100px adapt navigation, grids and forms. Images reserv
 ## Logo and visual refinement
 
 The matching official university logo now replaces the generic text/icon identity in the header and footer. The header renders the original logo silhouette in #222362 using a CSS mask; the footer preserves the white asset. Intrinsic aspect ratio and responsive sizing prevent stretching. The visual refresh adds a sticky navigation bar, a study-pathway hero panel, overlapping quick links, more spacious rounded study cards, a contrasting research card, framed campus photography, refined internal content cards, and stronger yellow accents. Mobile layouts hide the auxiliary hero panel and retain full-width navigation and controls. No new institutional claims were added. Browser visual QA remains unavailable in this environment.
+
+
+## Integrated updates top bar
+
+The main design adds a blue-to-violet gradient updates strip above the retained utility navigation. The strip combines a pill-shaped Updates label, three manual selectors for verified application/scholarship/calendar resources, an Admissions Office contact link, and a Login link to the official admissions portal. The portal returned HTTP 200 when checked. Existing location, calendar, news and contact utility links and the full primary navigation remain available. The alternate design stays on its separate branch and preview path. There is no automatic scrolling or rotation, and updates are announced politely to assistive technology. Mobile layouts wrap rather than hide existing links.
